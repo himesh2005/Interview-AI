@@ -54,7 +54,7 @@ const validateLogin = (email: string, password: string): boolean => {
   }
   return true;
 };
-
+//added login
 const Auth: React.FC = () => {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
