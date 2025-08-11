@@ -7,7 +7,7 @@ import { toast } from "sonner";
 import { InfinitySpin } from "react-loader-spinner";
 import LessonPage from "./lessonpage";
 import { useSession } from "next-auth/react";
-
+//course details page
 export default function CourseDetail({ courseId }: { courseId: string }) {
   const { data } = useSession();
   const [course, setCourse] = useState<Course>();
