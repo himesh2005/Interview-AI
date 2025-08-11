@@ -13,7 +13,7 @@ import {
 } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import Image from "next/image";
 import { toast } from "sonner";
-
+// made lessons page
 interface IProp {
   lesson: LessonContent | null;
   loading: boolean;
