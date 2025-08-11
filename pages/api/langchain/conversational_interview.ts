@@ -6,7 +6,7 @@ import { ConversationChain } from "langchain/chains";
 import { MongoDBChatMessageHistory } from "@langchain/mongodb";
 import { PromptTemplate } from "@langchain/core/prompts";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
-//conversational interview API complete
+//conversational interview API completee
 const handler = async function (
   req: NextApiRequest,
   res: NextApiResponse
